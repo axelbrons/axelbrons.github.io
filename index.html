@@ -23,16 +23,16 @@
               </p>
               <p>&nbsp;</p>
               <p>
-                I am an engineering student at <a href="https://ece.fr/" target="_blank"><b>ECE Paris</b></a>, majoring in Data & AI and minoring in Research. Next year, I will be pursuing my Master's degree in Mathematics & Statistics at <a href="https://www.ip-paris.fr/" target="_blank"><b>École Polytechnique</b></a>.
+                I am currently studying Applied Mathematics and Statistics at <a href="https://www.ip-paris.fr/" target="_blank"><b>École Polytechnique</b></a> in the <a href="https://www.ip-paris.fr/education/masters/mention-mathematiques-appliquees-statistique/master-year-2-data-science" target="_blank"><b>M2 Data Science</b></a> program, as part of a dual degree with <a href="https://ece.fr/" target="_blank"><b>ECE Paris</b></a> (majoring in Data & AI with a minor in Research).
               </p>
               <p>
-                I am currently an AI Research Intern at <a href="https://www.infogene.fr/" target="_blank"><b>Infogene</b></a> and an AI Maker at <a href="https://www.ece.fr/intelligence-lab/" target="_blank"><b>Intelligence Lab</b></a> of <a href="https://ece.fr/" target="_blank"><b>ECE Paris</b></a>.
+                Previously, I was an Applied AI Scientist Intern at <a href="https://www.infogene.fr/" target="_blank"><b>Infogene</b></a> and an AI Researcher at the <a href="https://www.ece.fr/intelligence-lab/" target="_blank"><b>Intelligence Lab</b></a> of <a href="https://ece.fr/" target="_blank"><b>ECE Paris</b></a>, where I worked on speech-to-text (STT) models in collaboration with <a href="https://gilbert-assistant.fr/" target="_blank"><b>Gilbert</b></a> (formerly Lexia). I also collaborated with <a href="https://scholar.google.com/citations?user=piucThwAAAAJ&hl=pt-BR" target="_blank"><b>Guilherme Medeiros Machado</b></a> at <a href="https://www.ece.fr/centre-de-recherche-lyrids/" target="_blank"><b>LyRIDS</b></a> (the ECE Paris research center) on academic stress detection using time-series analysis.
               </p>
               <p>
                 In my free time, I like to swim, hike, and play chess!
               </p>
               <p style="text-align:center">
-                <a href="mailto:axel.brons@edu.ece.fr">Email</a> &nbsp;/&nbsp;
+                <a href="mailto:axel.brons@polytechnique.edu">Email</a> &nbsp;/&nbsp;
                 <a href="data/cv_fr.pdf">CV</a> &nbsp;/&nbsp;                  
                 <a href="https://www.linkedin.com/in/axelbrons" target="_blank">LinkedIn</a> &nbsp;/&nbsp;                  
                 <a href="https://github.com/axelbrons/" target="_blank">GitHub</a>
@@ -48,7 +48,7 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Projects</heading>
+                <heading>Projects & Research</heading>
               </td>
             </tr>
           </tbody></table>
@@ -68,7 +68,7 @@
                 <strong>Axel Bröns</strong>, Stanislas Boiton-Ledenko
                 <br>
                 <p>
-                  Theoretical study on the multi-user use of generative AI model on an A6000 48GB VRAM GPU. Work carried out within Infogene.
+                  Theoretical sizing study on serving generative AI models to concurrent users on an NVIDIA RTX A6000 (48GB VRAM) GPU. Work carried out at Infogene.
                 </p>
                 <a href="images/gpu_a6000/gpu_a6000.pdf" target="_blank">Paper</a> 
               </td>
@@ -79,17 +79,17 @@
                 <img src="images/world-model/world-model.png" alt="Project 1" style="width:100%;max-width:160px;border-radius:5px;">
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://github.com/axelbrons/world-model" target="_blank">
-                  <papertitle>Continuous Learning of the Dynamics of a Double Pendulum by World Model Hamiltonian Constraint</papertitle>
+                <a href="https://github.com/axelbrons/hamiltonian-world-model" target="_blank">
+                  <papertitle>Symplectic Learning of Physical Dynamics via Hamiltonian Pixel World Models</papertitle>
                 </a>
                 <br>
                 <strong>Axel Bröns</strong>
                 <br>
                 <p>
-                  Implementation a continuous generative world model that predicts the chaotic dynamics of a double pendulum directly from raw videos. By integrating a Hamiltonian Neural Network (HNN) into the heart of a Neural ODE, the latent space learns to strictly respect energy conservation laws without any direct physical supervision.
+                  A continuous and symplectic pixel World Model that learns pendulum dynamics directly from raw video sequences. By combining a Hamiltonian Neural Network (HNN) with a 2nd-order symplectic integrator, the latent space strictly preserves energy conservation and phase space geometry without physical supervision.
                 </p>
-                <!-- <a href="images/gat-smart-contracts/paper.pdf" target="_blank">Paper</a> &nbsp;/&nbsp; 
-                <a href="https://github.com/axelbrons/gat-smart-contracts" target="_blank">Code</a> -->         
+                  <a href="images/world-model/simple-pendulum.pdf" target="_blank">Paper</a> &nbsp;/&nbsp; 
+                  <a href="https://github.com/axelbrons/hamiltonian-world-model" target="_blank">Code</a>         
               </td>
             </tr>
             
@@ -106,7 +106,7 @@
                 <strong>Axel Bröns</strong>, Valentin Kocijancic, Antoine Goudedranche, Thibault Garel, Hugo Rivière, Omar El Alami El Fellousse
                 <br>
                 <p>
-                  Detect automaticaly anomalies and fraudulent codes in smart contracts using a graph approach coupled with transformers and a classification layer. Our model achieves 0.81 F1 Score and 0.91 Recall.
+                  Automated detection of anomalies and fraudulent code in smart contracts using a graph-based approach combined with Transformers. The model achieves an F1 score of 0.81 and a recall of 0.91.
                 </p>
                 <a href="images/gat-smart-contracts/paper.pdf" target="_blank">Paper</a> &nbsp;/&nbsp; 
                 <a href="https://github.com/axelbrons/gat-smart-contracts" target="_blank">Code</a>          
@@ -125,7 +125,7 @@
                 <strong>Axel Bröns</strong>
                 <br>
                 <p>
-                  Creation of a neural automatic translator from scratch using a GRU and an attention mechanism.
+                  Implementation of an end-to-end neural machine translation model from scratch using GRUs and an attention mechanism.
                 </p>
                 <!-- <a href="images/gat-smart-contracts/paper.pdf" target="_blank">Paper</a> &nbsp;/&nbsp; -->
                 <a href="https://github.com/axelbrons/translator-rnn" target="_blank">Code</a>          
@@ -144,7 +144,7 @@
                 <strong>Axel Bröns</strong>, Valentin Kocijancic, Hugo Rivière, Ethan Petain
                 <br>
                 <p>
-                  Electronic project to perform speech recognition of predefined words using CNN and MFCC algorithms in C++ using the Arduino DUE ARM Cortex-M3 Processor board, 32 bit microcontroller with 84 MHz clock and 96kb of SRAM.
+                  An embedded systems project implementing speech recognition of predefined words using CNNs and MFCC features in C++ on an Arduino DUE (ARM Cortex-M3 32-bit microcontroller, 84 MHz clock, 96 KB SRAM).
                 </p>
                 <a href="images/neural-speech/Rapport_Neural_Speech.pdf" target="_blank">Paper</a> &nbsp;/&nbsp;
                 <a href="https://github.com/axelbrons/neural-speech" target="_blank">Code</a>          
@@ -163,7 +163,7 @@
                 <strong>Axel Bröns</strong>, Anas Boutaleb, Omar El Alami El Fellousse
                 <br>
                 <p>
-                  This research project proposes an objective methodology for measuring and anticipating stress in the school environment. By relying on the acquisition of biomedical signals and supervised learning algorithms, we identify 88.15% (F1 score) of mental states overload to prevent the risks of burn-out and academic dropout.
+                  A research methodology for measuring and anticipating stress in academic environments. Using biomedical signal acquisition and supervised learning algorithms, we detect cognitive overload states with an 88.15% F1 score to help prevent burnout and academic dropout.
                 </p>
                 <a href="images/stress-series/rapport.pdf" target="_blank">Paper</a> &nbsp;/&nbsp;
                 <a href="images/stress-series/poster.pdf" target="_blank">Poster</a> &nbsp;/&nbsp;
